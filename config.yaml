@@ -1,0 +1,25 @@
+id: "huggingface"
+data_access: "public"
+bigquery_dataset: "huggingface"
+bigquery-output:
+  - "Average number of parameters of new AI models"
+  - "Average training costs of new AI models"
+  - "Evolution of new AI models"
+  - "Evolution of new AI models per intended use"
+  - "Open source datasets by language and application task"
+  - "Percentage of open source datasets by language"
+language-model-tags: ["table-question-answering", "visual-question-answering", "question-answering", 
+    "translation", "document-question-answering", "text2text-generation", "summarization", 
+    "conversational", "text-generation", "text-classification", "text-to-image", "fill-mask",
+    "token-classification", "sentence-similarity", "image-to-text", "text-to-speech",
+    "text-to-video"]
+files:
+  path: "huggingface-data"
+  dataset: "huggingface"
+  map_intended_use_to_application_task: "intended-use-to-application-task.txt"
+  model-num-params-info: "models-num-params.csv"
+training-cost-info:
+  MFU: 0.55
+  GPU_FLOPs: 312000000000000
+  COST_GPU_HOUR: 1.1
+min-downloads: 10000

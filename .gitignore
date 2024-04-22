@@ -1,0 +1,13 @@
+datasets.parquet
+models.parquet
+venv
+/venv
+./venv
+venv/
+/venv/
+./venv/
+__pycache__
+tmp
+/tmp
+trashbin.txt
+run.log
